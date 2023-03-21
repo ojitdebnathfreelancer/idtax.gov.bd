@@ -2,7 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
+}
+
+.bg-blue {
+  background: #4b8df8;
+}
+
+.text-blue {
+  color: #4b8df8;
+}
+
+.bg-purple {
+  background: #683091;
+}
+
+.text-purple {
+  color: #683091;
+}
+
+.bg-green {
+  background: #8dc641;
+}
+
+.text-green {
+  color: #8dc641;
 }
