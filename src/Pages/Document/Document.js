@@ -5,7 +5,7 @@ import signature from "../../Assets/signature.jpg";
 
 const Document = () => {
    return (
-      <div className="border border-[#4b8df8] rounded w-[97%] mx-auto my-8">
+      <div className="border border-[#4b8df8] rounded w-[97%] min-w-[700px] mx-auto mt-8 mb-4">
          {/*------top header--------  */}
          <div className="h-10 bg-blue flex items-center">
             <h5 className="text-gray-100 inline-flex items-center ml-2">
@@ -211,21 +211,30 @@ const Document = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="col-span-1 mt-3">
-                     <img className="h-20 w-20 ml-3" src={scanner} alt="" />
+                  <div className="col-span-1 md:mt-3 mt-8">
+                     <img
+                        className="md:h-20 md:w-20 md:ml-3"
+                        src={scanner}
+                        alt=""
+                     />
                   </div>
-                  <div className="col-span-5 text-end mt-5">
+                  <div className="col-span-5 text-end md:mt-5 mt-10">
                      <p className="border-dotted border-t border-gray-800">
                         আদায়কারীর নাম ও স্বাক্ষর
                      </p>
-                     <p>৩১/১২/২০২২</p>
                      <div className="flex justify-end">
-                        <img className="w-20" src={signature} alt="" />
+                        <img className="w-20 pt-4" src={signature} alt="" />
                      </div>
+                     <p>৩১/১২/২০২২</p>
                      <p>মোঃ আলী আকবর চৌধুরী</p>
                      <p>ইউনিয়ন ভূমি সহকারী কর্মকর্তা ,</p>
                      <p>পৌর ভূমি অফিস ,মাদারীপুর (সদর),মাদারীপু</p>
                   </div>
+               </div>
+               <div className="flex justify-center items-center pt-6 pb-2">
+                  <button className=" block bg-[#35aa47] px-4 py-2 rounded text-gray-50 hover:bg-[#2d8f3c] duration-300 ">
+                     প্রিন্ট
+                  </button>
                </div>
             </div>
          </div>

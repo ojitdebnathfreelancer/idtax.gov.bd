@@ -5,7 +5,7 @@ import Document from "../Pages/Document/Document";
 
 const Main = () => {
    return (
-      <div>
+      <div className="min-w-[700px] mx-auto">
          <Nabar />
          <Document />
          <Footer />
