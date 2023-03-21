@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import nav1 from '../../Assets/nav-left-logo.png';
-import nav2 from '../../Assets/nav-right-logo.png';
 import { GoThreeBars } from 'react-icons/go'
 
 const Nabar = () => {

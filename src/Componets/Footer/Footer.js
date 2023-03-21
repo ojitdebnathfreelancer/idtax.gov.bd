@@ -5,7 +5,7 @@ import footerLogo from '../../Assets/footer-right-logo.png';
 
 const Footer = () => {
     return (
-        <div className='bg-green px-5 flex items-center justify-between py-2'>
+        <div className='bg-green px-5 lg:flex items-center justify-between py-2 md:hidden hidden'>
             <div className='flex items-center'>
                 <Link>
                     <img src={map} alt="map" />
