@@ -4,6 +4,7 @@ import scanner from "../../Assets/scanner.png";
 import signature from "../../Assets/signature.jpg";
 
 const Document = () => {
+   document.timeline = "ভূমি উন্নয়ন কর সিস্টেম অটোমেশন:LdtaxHoldings";
    return (
       <div className="border border-[#4b8df8] rounded mx-auto mb-16 lg:mx-5 md:mx-0 mt-24">
          {/*------top header--------  */}
