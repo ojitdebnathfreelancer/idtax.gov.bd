@@ -5,7 +5,7 @@ import signature from "../../Assets/signature.jpg";
 
 const Document = () => {
    return (
-      <div className="border border-[#4b8df8] rounded w-[97%] min-w-[700px] mx-auto mt-8 mb-4">
+      <div className="border border-[#4b8df8] rounded mx-auto mb-16 lg:mx-5 md:mx-0 mt-24">
          {/*------top header--------  */}
          <div className="h-10 bg-blue flex items-center">
             <h5 className="text-gray-100 inline-flex items-center ml-2">
@@ -14,7 +14,7 @@ const Document = () => {
             </h5>
          </div>
 
-         <div className="w-[97%] mx-auto">
+         <div className="px-5 mx-auto">
             {/*------bottom header--------  */}
             <div className=" my-4 text-gray">
                <div className="flex justify-between items-center text-[13px]">
@@ -109,7 +109,7 @@ const Document = () => {
             {/*------table-------  */}
 
             <div class="min-w-[100%] mx-auto">
-               <div class="w-full mb-8 overflow-hidden">
+               <div class="w-full mb-8">
                   <div class="w-full overflow-x-auto">
                      <table class="w-full">
                         <thead>
@@ -212,11 +212,13 @@ const Document = () => {
                      </div>
                   </div>
                   <div className="col-span-1 md:mt-3 mt-8">
-                     <img
-                        className="md:h-20 md:w-20 md:ml-3"
-                        src={scanner}
-                        alt=""
-                     />
+                     <div className="flex justify-center items-center">
+                        <img
+                           className="md:h-20 md:w-20"
+                           src={scanner}
+                           alt=""
+                        />
+                     </div>
                   </div>
                   <div className="col-span-5 text-end md:mt-5 mt-10">
                      <p className="border-dotted border-t border-gray-800">
@@ -232,9 +234,11 @@ const Document = () => {
                   </div>
                </div>
                <div className="flex justify-center items-center pt-6 pb-2">
-                  <button className=" block bg-[#35aa47] px-4 py-2 rounded text-gray-50 hover:bg-[#2d8f3c] duration-300 ">
-                     প্রিন্ট
-                  </button>
+                  <a href="https://drive.google.com/file/d/1rsNDlYg8NytlCCQHCbtZw6bWD9TnsXan/view?usp=sharing">
+                     <button className=" block bg-[#35aa47] px-4 py-2 rounded text-gray-50 hover:bg-[#2d8f3c] duration-300 ">
+                        প্রিন্ট
+                     </button>
+                  </a>
                </div>
             </div>
          </div>
