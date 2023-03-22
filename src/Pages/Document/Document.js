@@ -76,7 +76,7 @@ const Document = () => {
                   <div className="grid grid-cols-5">
                      <p>২ নং রেজিস্টার অনুযায়ী হোল্ডিং নম্বার : </p>
                      <p className="border-dotted border-b border-gray-800 col-span-4 px-3">
-                        153
+                        ১৫৩
                      </p>
                   </div>
                   <div className="grid grid-cols-12 my-1.5">
